@@ -1,0 +1,13 @@
+name: 오류 신고
+description: 오류가 났거나 이상하게 동작할 때
+body:
+  - type: textarea
+    attributes:
+      label: 무엇을 하다가 생겼나요?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 오류 정보
+      description: 앱의 "복사하고 문의하기"로 복사한 내용을 붙여 넣어 주세요. 공개 게시판이니 개인정보는 지워 주세요.
+      render: text
